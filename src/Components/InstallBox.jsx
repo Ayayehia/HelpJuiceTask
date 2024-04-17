@@ -4,7 +4,7 @@ import Stars from "/Stars.png";
 const InstallBox = () => {
   return (
     <div className="flex flex-col items-center justify-center px-6 lg:px-0 ">
-      <ul className="flex text-gray-900 font-medium px-6  mb-9 lg:mb-7 lg:gap-6 gap-3">
+      <ul className="flex text-gray-900 font-medium px-6  mb-9 lg:mb-7 lg:gap-6 gap-3 bg-custom-gradient">
         <li className="flex items-center gap-1">
           <span className="font-plus text-xl lg:text-4xl  underline">Free</span>
           <span className="lg:text-sm text-[8px]">

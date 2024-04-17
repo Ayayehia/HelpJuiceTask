@@ -11,7 +11,7 @@ const WizardSteps = ({ steps }) => {
           <li className="max-w-[296px]" key={item.id}>
             <img
               src={item.image}
-              className="mb-8 shadow-custom"
+              className="mb-8 bg-new-custom-gradient shadow-custom"
               alt={item.alt}
             />
             <h3 className="font-semibold text-lg">{item.title}</h3>

@@ -15,12 +15,19 @@ export default {
       },
       boxShadow: {
         custom: `
-        5px  5px 6px rgba(34, 197, 94, 0.5), /* green */
-        10px 10px 6px rgba(37, 99, 235, 0.5), /* blue */
-        15px 15px 6px rgba(124, 58, 237, 0.5), /* purple */
-        18px 18px 6px rgba(219, 39, 119, 0.5), /* pink */
-        20px 20px 6px rgba(253, 224, 71, 0.5) /* yellow */
+        5px  5px 6px #44FF9A, /* green */
+        10px 10px 6px  #44B0FF, /* blue */
+        15px 15px 6px #8B44FF, /* purple */
+        18px 18px 6px #FF6644, /* pink */
+        20px 20px 6px #EBFF70 /* yellow */
       `,
+        "all-around-blur": "0 0 15px 10px rgba(0, 0, 0, 0.6)",
+      },
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(to right, #F0FBB9, #FBB3A0, #BFA2FD, #A4D0FC, #9FE9E2, #9FFACE)",
+        "new-custom-gradient":
+          "linear-gradient(to right, #44FF9A, #44B0FF, #8B44FF, #FF6644, #EBFF70)",
       },
     },
   },

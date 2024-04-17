@@ -4,14 +4,16 @@ import DownSign from "/chevron-down.png";
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
   return (
     <>
-      <div className="lg:max-w-[800px] flex flex-col items-center justify-start font-inter ">
-        <button className="flex font-medium " onClick={onClick}>
-          {title}
+      <div className="w-full flex flex-col items-center justify-start font-inter border-b border-[#0F172A] pb-4 ">
+        <button
+          className="flex justify-between items-center font-medium w-full "
+          onClick={onClick}
+        >
+          <span>{title}</span>
           <span>{isOpen ? <img src={UpSign} /> : <img src={DownSign} />}</span>
         </button>
         {isOpen && <div className="text-sm">{content}</div>}
       </div>
-      <div className="border border-b-[#0F172A] w-full" />
     </>
   );
 };
@@ -24,7 +26,7 @@ const AccordinQuestions = ({ data }) => {
   };
   return (
     <>
-      <div className=" w-full mt-20 mb-[126px] flex flex-col items-center justify-center gap-4 px-7">
+      <div className=" max-w-[800px] mt-20 mb-[126px] flex flex-col items-center justify-center gap-4 px-6 mx-auto">
         <h3 className="font-plus font-extrabold text-3xl ">Common Question</h3>
         {data.map((item, index) => (
           <AccordionItem
