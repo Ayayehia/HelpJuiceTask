@@ -28,15 +28,11 @@ const HeroSection = () => {
           controls
         ></video>
         <img
-          className="absolute top-[-38px] left-[-18px] z-50 p-2   "
+          className="absolute top-[-38px] left-[-18px]  p-2   "
           src={ArrowUp}
           alt="ArrowUp"
         />
-        <img
-          src={Text}
-          alt="Text"
-          className="absolute top-[-56px] left-0 z-50"
-        />
+        <img src={Text} alt="Text" className="absolute top-[-56px] left-0 " />
       </div>
     </article>
   );
