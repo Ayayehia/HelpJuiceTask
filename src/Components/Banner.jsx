@@ -2,8 +2,9 @@ import LeftArrow from "/LeftArrow.png";
 
 const Banner = () => {
   return (
-    <div className="lg:px-[188px] px-6">
-      <article className="bg-black text-white rounded-lg lg:flex lg:flex-row lg:py-8 lg:pl-12 lg:pr-24 lg:justify-between lg:items-center py-8 px-4 flex flex-col items-end">
+    <div className="lg:px-[188px] px-6 flex flex-col justify-center items-end">
+      <p className="font-alph font-bold text-xl ">100% free, forever 🤑</p>
+      <article className="w-full bg-black text-white rounded-lg lg:flex lg:flex-row lg:py-8 lg:pl-12 lg:pr-24 lg:justify-between lg:items-center py-8 px-4 flex flex-col items-end">
         <div className="font-mulish lg:max-w-[510px]">
           <h3 className=" text-3xl font-medium mb-3 ">
             Create Tutorials in 3 Clicks.

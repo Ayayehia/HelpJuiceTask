@@ -8,11 +8,12 @@ import InstallBox from "./Components/InstallBox";
 import AccordinQuestions from "./Components/AccordinQuestions";
 import Banner from "./Components/Banner";
 import Footer from "./Components/Footer";
+import GrrenCheck from "/GreenCheck.png";
 const steps = [
   {
     id: 1,
     image: ImageOne,
-    title: " 1.Click Capture",
+    title: "Click Capture",
     subTitle:
       "Once you install the Chrome extension, fire it up, and click Capture.",
     alt: "step one in wizardshot image",
@@ -20,7 +21,7 @@ const steps = [
   {
     id: 2,
     image: ImageTwo,
-    title: " 2.Perform Your Actions",
+    title: "Perform Your Actions",
     subTitle:
       "Once capturing, Wizardshot carefully monitors what you do to understand how to document it.",
     alt: "step Two in wizardshot image",
@@ -28,10 +29,11 @@ const steps = [
   {
     id: 3,
     image: ImageThree,
-    title: " 3. Done. Article Written",
+    title: " Done. Article Written",
     subTitle:
       " Wizardshot carefully crafts the perfect article based off your actions recorded. Just click “Done” and we’ll write up the article in a second.",
     alt: "step Three in wizardshot image",
+    image2: GrrenCheck,
   },
 ];
 const accordionData = [

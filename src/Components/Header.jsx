@@ -48,7 +48,7 @@ const Header = () => {
               className="active:underline-offset-1 focus:underline focus:text-[#4F4F4F] focus:font-semibold"
               href="#"
             >
-              Help Center&Community
+              Help Center & Community
             </a>
           </li>
         </ul>
@@ -57,7 +57,7 @@ const Header = () => {
             <a href="#">Login</a>
           </p>
           <div className="lg:flex lg:flex-col lg:items-center hidden">
-            <p className="font-alph font-bold text-xl">100% free, forever</p>
+            <p className="font-alph font-bold text-xl">100% free, forever 🤑</p>
             <button className=" flex gap-2 px-4 py-2 bg-black text-white font-bold text-sm rounded-lg font-mulish">
               <span>
                 <img className="w-5 h-5" src={ChromeLogo} />
@@ -122,7 +122,7 @@ const Header = () => {
                     Install Wizard
                   </button>
                   <p className="font-alph font-bold text-xl">
-                    100% free, forever
+                    100% free, forever🤑
                   </p>
                 </div>
               </div>
