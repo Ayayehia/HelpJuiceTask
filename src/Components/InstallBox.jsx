@@ -3,16 +3,16 @@ import Stars from "/Stars.png";
 
 const InstallBox = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-6 lg:px-0 ">
-      <ul className="flex text-gray-900 font-medium px-6  mb-9 lg:mb-7 lg:gap-6 gap-3 bg-custom-gradient">
+    <div className="flex flex-col items-center justify-center  lg:px-0 ">
+      <ul className="flex text-gray-900 font-medium lg:px-6  mb-9 lg:mb-7 lg:gap-6 gap-3 bg-custom-gradient">
         <li className="flex items-center gap-1">
-          <span className="font-plus text-xl lg:text-4xl  underline">Free</span>
+          <span className="font-plus  lg:text-4xl  underline">Free</span>
           <span className="lg:text-sm text-[8px]">
             <p>Free</p> <p>Forever</p>
           </span>
         </li>
         <li className="flex items-center gap-1">
-          <span className="font-plus text-xl lg:text-4xl  font-medium underline">
+          <span className="font-plus  lg:text-4xl  font-medium underline">
             Unlimited
           </span>
 
@@ -21,7 +21,7 @@ const InstallBox = () => {
           </span>
         </li>
         <li className="flex items-center gap-1">
-          <span className="font-plus text-xl lg:text-4xl  font-medium underline">
+          <span className="font-plus  lg:text-4xl  font-medium underline">
             Powerful
           </span>
 
@@ -35,7 +35,7 @@ const InstallBox = () => {
           <h3 className="font-plus font-extrabold text-4xl mb-7 lg:mb-0">
             Create A Detailed Tutorial in Less than 3 clicks
           </h3>
-          <button className="bg-black text-white flex items-center gap-2 py-6 px-20 rounded-lg font-mulish text-3xl mb-14 lg:mb-0">
+          <button className="bg-black text-white flex items-center gap-2 py-6  px-4 lg:px-20 rounded-lg font-mulish lg:text-3xl mb-14 lg:mb-0">
             <img className="w-8 h-8" src={logo} alt="chrome image logo " />
             Install Wizardshot
           </button>
